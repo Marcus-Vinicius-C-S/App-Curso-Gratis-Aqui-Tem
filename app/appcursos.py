@@ -185,7 +185,8 @@ def main(page: ft.Page):
                             ft.MaterialState.HOVERED: ft.BorderSide(width=2, color=ft.colors.CYAN),
                         },
                         bgcolor={
-                            ft.MaterialState.HOVERED: ft.colors.WHITE
+                            ft.MaterialState.DEFAULT: ft.colors.CYAN,  # Cor de fundo padrão
+                            ft.MaterialState.HOVERED: ft.colors.CYAN,  # Cor de fundo quando passa o mouse
                         },
                         color={
                             ft.MaterialState.DEFAULT: ft.colors.WHITE,
